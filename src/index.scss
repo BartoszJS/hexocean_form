@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+body {
+  background: rgb(50, 56, 100);
+  background: radial-gradient(
+    circle,
+    rgba(50, 56, 100, 1) 14%,
+    rgba(30, 35, 75, 1) 97%
+  );
+}

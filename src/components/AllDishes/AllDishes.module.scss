@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    color: bisque;
+  }
+  .dish {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    max-width: 300px;
+    width: 100%;
+    &__row {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
